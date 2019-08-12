@@ -13,7 +13,7 @@ stored in `weights/`, and generated image will saved in `generated_img/`
 run `python test.py` to load weights from `weights/` and generate 5 images.
 ## Network Architecture
 - The Generator is a *U-NET* and defined in `PixGenerator.py`. The output is `tanh` activated.
-- The Discriminator is a *PatchGAN* network with size 70*70.
+- The Discriminator is a *PatchGAN* network with size 30*30.
 ## Data
 - The dataset use `random_jitter` and `Nomalized` to [-1,1]
 - The process in written in `data_preprocess.py`
